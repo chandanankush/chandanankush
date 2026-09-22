@@ -1,29 +1,29 @@
 # Hi, I'm Chandan 🙏
 
-I build things that talk to each other — iOS and macOS apps, the networks underneath them, and lately the models sitting on top. I'm an Engineering Manager at Paytm Payments Bank, leading Web, Android, iOS, and internal UI engineering across five teams; before that, ~15 years shipping mobile and full-stack software, including consumer-facing work on Paytm and J.P. Morgan Markets/Execute. Swift and networking are my core; everything else is whatever the problem needs.
+I build at the seams between apps, networks, and AI. Swift and networking are my home turf; lately I've been building local-model systems, financial document pipelines, and tools that make a homelab feel like useful infrastructure.
 
-I'm a mobile engineer by trade and a homelab person by hobby, which means half my repos are Swift packages and the other half are Python or Flask services running on boxes under my desk.
+I'm an Engineering Manager at Paytm Payments Bank, leading Web, Android, iOS, and internal UI engineering across five teams. Before that, I spent ~15 years shipping mobile and full-stack software, including consumer-facing work on Paytm and J.P. Morgan Markets/Execute. I still like getting close to the code, especially when a problem crosses system boundaries.
 
 ## What I'm working on
 
-- **AIResume** *(private)* — A conversational portfolio backed by a modular RAG pipeline, local model inference, structured profile tools, and repeatable retrieval evaluations. Live at [chandan.mopplications.com](https://chandan.mopplications.com/).
-- **TxParse** *(private)* — A multi-service financial document and inbox automation platform with bank-specific PDF extraction, balance-based trust checks, a reconciled ledger, and tenant-isolated PostgreSQL storage. Live at [txparse.mopplications.com](https://txparse.mopplications.com/).
-- **ServerPC SSH Control** *(private)* — A fail-closed macOS SSH access controller with OS-mediated authorization, expiring firewall leases, explicit network scope, and session audit history.
-- **WhatsApp Gateway** *(private)* — A Dockerized messaging gateway with a REST API, QR-based account linking, an authenticated operator dashboard, revocable API keys, and persistent outbound history.
-- **[Statix](https://github.com/chandanankush/statix)** — A self-hosted monitoring system with native host agents, centralized metric storage, a configurable multi-host dashboard, and multi-architecture container delivery.
-- **FTP Server Dashboard** *(private)* — A local file-sharing utility combining an FTP service and responsive web dashboard, with consistent access modes, host-only administration, and automatic idle shutdown.
-- **[LGLogger](https://github.com/chandanankush/LGLogger)** — A dependency-free iOS logging package with selective logging, on-device persistence, a floating in-app viewer, and user-initiated log export.
-- **[dev-tools](https://github.com/chandanankush/dev-tools)** — An extensible developer toolkit with browser utilities, a multi-format note editor, an interactive whiteboard, regression tests, and containerized deployment.
-- **[lan-devices](https://github.com/chandanankush/lan-devices)** — A SwiftUI macOS utility for discovering and managing LAN devices, with persistent records, SSH reachability monitoring, and terminal/remote-control actions.
+- **AIResume** *(private)* — A portfolio you can question, powered by local models and a custom RAG pipeline with repeatable retrieval evaluations. [Try it live](https://chandan.mopplications.com/).
+- **TxParse** *(private)* — Turns messy bank PDFs and transaction emails into a reconciled ledger; balance checks and PostgreSQL row-level security keep the data trustworthy and isolated. [See the live site](https://txparse.mopplications.com/).
+- **ServerPC SSH Control** *(private)* — Keeps SSH closed until fresh macOS authorization opens a timed firewall window; an independent process enforces expiry.
+- **[dev-tools](https://github.com/chandanankush/dev-tools)** — A browser workbench for developer utilities, notes, and a whiteboard, with a strict CSP and SSRF-safe URL expansion behind the scenes.
+- **WhatsApp Gateway** *(private)* — A containerized messaging API with QR pairing, an operator dashboard, revocable keys, and an outbound history.
+- **[Statix](https://github.com/chandanankush/statix)** — Native agents and a central dashboard keep an eye on the CPU, memory, disks, and networks across my homelab.
+- **[LGLogger](https://github.com/chandanankush/LGLogger)** — An iOS logging package that puts filtered, persistent logs and export controls inside the app itself.
+- **[lan-devices](https://github.com/chandanankush/lan-devices)** — A SwiftUI dashboard for finding LAN machines, checking SSH reachability, and launching terminal or remote-control actions.
+- **FTP Server Dashboard** *(private)* — A small LAN file-sharing service with one access mode across FTP and web, host-only administration, and idle shutdown.
 
 ## Things you can actually use
 
 | | |
 |---|---|
-| **[statix](https://github.com/chandanankush/statix)** | A FastAPI agent + Flask/SQLite server for monitoring CPU, memory, disk, and network across every machine in the homelab, published as a multi-arch Docker image. |
-| **[LGLogger](https://github.com/chandanankush/LGLogger)** | Dependency-free iOS logging. `print()`-style calls, per-module/per-level filtering, on-disk persistence, one-tap email/HTTP upload, and a floating in-app viewer — with a real test suite and CI behind it. |
-| **[dev-tools](https://github.com/chandanankush/dev-tools)** | An extensible developer toolkit with browser utilities, a multi-format note editor, an interactive whiteboard, regression tests, and containerized deployment. |
-| **[lan-devices](https://github.com/chandanankush/lan-devices)** | A SwiftUI macOS utility for discovering and managing LAN devices, with persistent records, SSH reachability monitoring, and terminal/remote-control actions. |
+| **[dev-tools](https://github.com/chandanankush/dev-tools)** | JSON, cURL, regex, notes, and a canvas whiteboard in one self-hosted workbench. |
+| **[statix](https://github.com/chandanankush/statix)** | Monitor multiple macOS and Linux hosts from one dashboard. |
+| **[LGLogger](https://github.com/chandanankush/LGLogger)** | Inspect and export iOS app logs without attaching a development cable. |
+| **[lan-devices](https://github.com/chandanankush/lan-devices)** | Discover LAN machines, watch SSH reachability, and open a terminal. |
 
 ## Tech stack
 
@@ -40,7 +40,7 @@ I'm a mobile engineer by trade and a homelab person by hobby, which means half m
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-Plus the parts that don't have a nice logo: URLSession, TCP reachability checks and Bonjour discovery, socket-based protocols (built one for a HIPAA-compliant hospital app early in my career), server-side URL validation against SSRF, Swift Package Manager, SwiftData/Core Data, WidgetKit, Authorization Services and XPC on macOS, self-hosted RAG and retrieval-eval tuning, and a home server that has survived more rebuilds than it should have.
+The less badge-shaped parts: URLSession, Bonjour, Swift Package Manager, macOS Authorization Services and XPC, server-side URL validation, local inference, and retrieval evaluation.
 
 ## GitHub stats
 
@@ -52,4 +52,4 @@ Plus the parts that don't have a nice logo: URLSession, TCP reachability checks 
 [![LinkedIn](https://img.shields.io/badge/-Chandan_Singh-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chandan-singh-mobileengineer)
 [![Email](https://img.shields.io/badge/-chandan.ankush@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:chandan.ankush@gmail.com)
 
-Open to EM / Staff / Principal conversations in fintech and AI-first product teams — feel free to reach out.
+Open to EM / Staff / Principal conversations, especially where mobile, systems, and AI meet.
