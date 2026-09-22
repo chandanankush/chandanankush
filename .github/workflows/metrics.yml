@@ -48,5 +48,7 @@ jobs:
           plugin_habits_charts: yes
 
           # Count private contributions in the header numbers.
-          repositories_affiliations: owner, collaborator
+          # Narrowed to owner-only: a collaborator repo was feeding the habits
+          # plugin a commit with no author metadata, crashing it.
+          repositories_affiliations: owner
           repositories_skipped: wwdc-downloader, FlightLog
