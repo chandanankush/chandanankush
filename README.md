@@ -44,7 +44,8 @@ The less badge-shaped parts: URLSession, Bonjour, Swift Package Manager, macOS A
 
 ## Private bitbucket stats
 Most of my professional work lives on private Bitbucket last few years (2018–Sep 2026):
-<img width="946" height="979" alt="stats" src="https://github.com/user-attachments/assets/c7d4d0a1-59dd-45d6-aaca-9b9543265874" />
+<img width="943" height="860" alt="stats-v2" src="https://github.com/user-attachments/assets/ef3d5c8a-3efe-483d-80f1-26f9bb305290" />
+
 
 
 ## GitHub stats
