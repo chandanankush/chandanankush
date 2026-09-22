@@ -7,7 +7,7 @@ I'm a mobile engineer by trade and a homelab person by hobby, which means half m
 ## What I'm working on
 
 - **AIResume** *(private)* — A conversational portfolio backed by a modular RAG pipeline, local model inference, structured profile tools, and repeatable retrieval evaluations. Live at [chandan.mopplications.com](https://chandan.mopplications.com/).
-- **TxParse** *(private)* — A multi-service financial document and inbox automation platform with bank-specific PDF extraction, balance-based trust checks, a reconciled ledger, and tenant-isolated PostgreSQL storage.
+- **TxParse** *(private)* — A multi-service financial document and inbox automation platform with bank-specific PDF extraction, balance-based trust checks, a reconciled ledger, and tenant-isolated PostgreSQL storage. Live at [txparse.mopplications.com](https://txparse.mopplications.com/).
 - **ServerPC SSH Control** *(private)* — A fail-closed macOS SSH access controller with OS-mediated authorization, expiring firewall leases, explicit network scope, and session audit history.
 - **WhatsApp Gateway** *(private)* — A Dockerized messaging gateway with a REST API, QR-based account linking, an authenticated operator dashboard, revocable API keys, and persistent outbound history.
 - **[Statix](https://github.com/chandanankush/statix)** — A self-hosted monitoring system with native host agents, centralized metric storage, a configurable multi-host dashboard, and multi-architecture container delivery.
@@ -20,6 +20,8 @@ I'm a mobile engineer by trade and a homelab person by hobby, which means half m
 |---|---|
 | **[statix](https://github.com/chandanankush/statix)** | A FastAPI agent + Flask/SQLite server for monitoring CPU, memory, disk, and network across every machine in the homelab, published as a multi-arch Docker image. |
 | **[LGLogger](https://github.com/chandanankush/LGLogger)** | Dependency-free iOS logging. `print()`-style calls, per-module/per-level filtering, on-disk persistence, one-tap email/HTTP upload, and a floating in-app viewer — with a real test suite and CI behind it. |
+| **[dev-tools](https://github.com/chandanankush/dev-tools)** | An extensible developer toolkit with browser utilities, a multi-format note editor, an interactive whiteboard, regression tests, and containerized deployment. |
+| **[lan-devices](https://github.com/chandanankush/lan-devices)** | A SwiftUI macOS utility for discovering and managing LAN devices, with persistent records, SSH reachability monitoring, and terminal/remote-control actions. |
 
 ## Tech stack
 
