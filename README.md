@@ -48,6 +48,10 @@ Most of my professional work lives on private Bitbucket (2018–Sep 2026):
 
 The less badge-shaped parts: URLSession, Bonjour, Swift Package Manager, macOS Authorization Services and XPC, server-side URL validation, local inference, and retrieval evaluation.
 
+## Current Org stats on private bitbucket
+<img width="946" height="979" alt="stats" src="https://github.com/user-attachments/assets/c7d4d0a1-59dd-45d6-aaca-9b9543265874" />
+
+
 ## GitHub stats
 
 ![Metrics](./github-metrics.svg)
