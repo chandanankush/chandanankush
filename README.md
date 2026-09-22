@@ -6,23 +6,24 @@ I'm a mobile engineer by trade and a homelab person by hobby, which means half m
 
 ## What I'm working on
 
-- **AIResume** *(private)* — An AI-queryable portfolio site with a from-scratch RAG SDK behind it — chunking, embeddings, vector store, retrieval, reranking, confidence gating — running entirely on self-hosted local models (LM Studio, gemma-4-e4b for chat, bge-m3 for embeddings) so there's no cloud inference cost. It has its own eval harness (frozen manifests, section@1/3 metrics) so I can catch regressions honestly instead of just shipping. Live at [chandan.mopplications.com](https://chandan.mopplications.com/).
-- **bank_statement-parser** *(private)* — A multi-tenant service that turns inconsistent Indian bank/credit-card PDF statements into structured, categorized data, with Postgres row-level security keeping each tenant's numbers isolated from every other. Mostly a lesson in how many ways a table can be not-a-table.
-- **A GitHub Copilot adoption dashboard** *(private)* — Streamlit analytics for engineering leadership: acceptance rates, per-engineer activity, model-usage breakdown, built to answer "is this actually helping" with numbers instead of vibes.
-- **A fail-closed SSH access-window tool** *(private)* — A menu-bar utility for my home server that keeps SSH closed by default and opens a time-bounded, auditable window via fresh macOS authorization — with an independent expiry enforcer that closes it again even if the menu app itself is compromised. The interesting part was writing the actual threat model, not the Swift.
-- **AccessibilitySDK** *(private)* — An in-app SDK + Mac scanner pair that walks a running app's live accessibility tree over a local WebSocket and scores it against WCAG rules, including a proper pixel-sampled contrast check — no App Store review or cable required.
-- **[dev-tools](https://github.com/chandanankush/dev-tools)** — A growing, self-hosted grid of developer utilities on Next.js 16 with a strict nonce-based CSP and SSRF-safe URL handling. Deployed to a Raspberry Pi via a Jenkins pipeline I built for it.
+- **AIResume** *(private)* — A conversational portfolio backed by a modular RAG pipeline, local model inference, structured profile tools, and repeatable retrieval evaluations. Live at [chandan.mopplications.com](https://chandan.mopplications.com/).
+- **TxParse** *(private)* — A multi-service financial document and inbox automation platform with bank-specific PDF extraction, balance-based trust checks, a reconciled ledger, and tenant-isolated PostgreSQL storage. Live at [txparse.mopplications.com](https://txparse.mopplications.com/).
+- **ServerPC SSH Control** *(private)* — A fail-closed macOS SSH access controller with OS-mediated authorization, expiring firewall leases, explicit network scope, and session audit history.
+- **WhatsApp Gateway** *(private)* — A Dockerized messaging gateway with a REST API, QR-based account linking, an authenticated operator dashboard, revocable API keys, and persistent outbound history.
+- **[Statix](https://github.com/chandanankush/statix)** — A self-hosted monitoring system with native host agents, centralized metric storage, a configurable multi-host dashboard, and multi-architecture container delivery.
+- **FTP Server Dashboard** *(private)* — A local file-sharing utility combining an FTP service and responsive web dashboard, with consistent access modes, host-only administration, and automatic idle shutdown.
+- **[LGLogger](https://github.com/chandanankush/LGLogger)** — A dependency-free iOS logging package with selective logging, on-device persistence, a floating in-app viewer, and user-initiated log export.
+- **[dev-tools](https://github.com/chandanankush/dev-tools)** — An extensible developer toolkit with browser utilities, a multi-format note editor, an interactive whiteboard, regression tests, and containerized deployment.
+- **[lan-devices](https://github.com/chandanankush/lan-devices)** — A SwiftUI macOS utility for discovering and managing LAN devices, with persistent records, SSH reachability monitoring, and terminal/remote-control actions.
 
 ## Things you can actually use
 
 | | |
 |---|---|
-| **[LGLogger](https://github.com/chandanankush/LGLogger)** | Dependency-free iOS logging. `print()`-style calls, per-module/per-level filtering, on-disk persistence, one-tap email/HTTP upload, and a floating in-app viewer — with a real test suite and CI behind it. |
-| **[lan-devices](https://github.com/chandanankush/lan-devices)** | A SwiftUI macOS app for discovering and managing the SSH-accessible machines on your LAN — Bonjour discovery, TCP reachability checks, and remote shutdown/restart, because `~/.ssh/config` is not a UI. |
-| **[dev-tools](https://github.com/chandanankush/dev-tools)** | Self-hosted developer-utility grid, Next.js 16 + strict CSP, shipped as a multi-stage Docker image. |
 | **[statix](https://github.com/chandanankush/statix)** | A FastAPI agent + Flask/SQLite server for monitoring CPU, memory, disk, and network across every machine in the homelab, published as a multi-arch Docker image. |
-| **[CAAlertView](https://github.com/chandanankush/CAAlertView)** | An anchored SwiftUI selection popover — a 2013 UIKit control rebuilt for SwiftUI, arrow and all, with an iOS-version fallback for the pre-popover era. |
-| **[TextToQR](https://github.com/chandanankush/TextToQR)** | A local macOS QR generator with a managed text library, import/export included. Swift, no ceremony. |
+| **[LGLogger](https://github.com/chandanankush/LGLogger)** | Dependency-free iOS logging. `print()`-style calls, per-module/per-level filtering, on-disk persistence, one-tap email/HTTP upload, and a floating in-app viewer — with a real test suite and CI behind it. |
+| **[dev-tools](https://github.com/chandanankush/dev-tools)** | An extensible developer toolkit with browser utilities, a multi-format note editor, an interactive whiteboard, regression tests, and containerized deployment. |
+| **[lan-devices](https://github.com/chandanankush/lan-devices)** | A SwiftUI macOS utility for discovering and managing LAN devices, with persistent records, SSH reachability monitoring, and terminal/remote-control actions. |
 
 ## Tech stack
 
