@@ -13,6 +13,7 @@ I'm a mobile engineer by trade and a homelab person by hobby, which means half m
 - **[Statix](https://github.com/chandanankush/statix)** — A self-hosted monitoring system with native host agents, centralized metric storage, a configurable multi-host dashboard, and multi-architecture container delivery.
 - **FTP Server Dashboard** *(private)* — A local file-sharing utility combining an FTP service and responsive web dashboard, with consistent access modes, host-only administration, and automatic idle shutdown.
 - **[LGLogger](https://github.com/chandanankush/LGLogger)** — A dependency-free iOS logging package with selective logging, on-device persistence, a floating in-app viewer, and user-initiated log export.
+- **[dev-tools](https://github.com/chandanankush/dev-tools)** — An extensible developer toolkit with browser utilities, a multi-format note editor, an interactive whiteboard, regression tests, and containerized deployment.
 
 ## Things you can actually use
 
