@@ -4,12 +4,6 @@ I build at the seams between apps, networks, and AI. Swift and networking are my
 
 I'm an Engineering Manager at Paytm Payments Bank, leading Web, Android, iOS, and internal UI engineering across five teams. Before that, I spent ~15 years shipping mobile and full-stack software, including consumer-facing work on Paytm and J.P. Morgan Markets/Execute. I still like getting close to the code, especially when a problem crosses system boundaries.
 
-Most of my professional work lives on private Bitbucket (2018–Sep 2026):
-
-| Merged PRs authored | PRs reviewed | Repositories contributed to |
-| :---: | :---: | :---: |
-| **965** | **1,723** | **11** |
-
 ## What I'm working on
 
 - **AIResume** *(private)* — A portfolio you can question, powered by local models and a custom RAG pipeline with repeatable retrieval evaluations. [Try it live](https://chandan.mopplications.com/).
@@ -48,7 +42,8 @@ Most of my professional work lives on private Bitbucket (2018–Sep 2026):
 
 The less badge-shaped parts: URLSession, Bonjour, Swift Package Manager, macOS Authorization Services and XPC, server-side URL validation, local inference, and retrieval evaluation.
 
-## Current Org stats on private bitbucket
+## Private bitbucket stats
+Most of my professional work lives on private Bitbucket last few years (2018–Sep 2026):
 <img width="946" height="979" alt="stats" src="https://github.com/user-attachments/assets/c7d4d0a1-59dd-45d6-aaca-9b9543265874" />
 
 
