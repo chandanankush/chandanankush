@@ -9,7 +9,7 @@ I'm an Engineering Manager at Paytm Payments Bank, leading Web, Android, iOS, an
 - **AIResume** *(private)* — A portfolio you can question, powered by local models and a custom RAG pipeline with repeatable retrieval evaluations. [Try it live](https://chandan.mopplications.com/).
 - **TxParse** *(private)* — Turns messy bank PDFs and transaction emails into a reconciled ledger; balance checks and PostgreSQL row-level security keep the data trustworthy and isolated. [See the live site](https://txparse.mopplications.com/).
 - **ServerPC SSH Control** *(private)* — Keeps SSH closed until fresh macOS authorization opens a timed firewall window; an independent process enforces expiry.
-- **[dev-tools](https://github.com/chandanankush/dev-tools)** — A browser workbench for developer utilities, notes, and a whiteboard, with a strict CSP and SSRF-safe URL expansion behind the scenes.
+- **[dev-tools](https://github.com/chandanankush/dev-tools)** — A browser workbench for developer utilities, notes, and a whiteboard, with a strict CSP and SSRF-safe URL expansion behind the scenes [Try it live](https://www.mopplications.com/).
 - **WhatsApp Gateway** *(private)* — A containerized messaging API with QR pairing, an operator dashboard, revocable keys, and an outbound history.
 - **[Statix](https://github.com/chandanankush/statix)** — Native agents and a central dashboard keep an eye on the CPU, memory, disks, and networks across my homelab.
 - **[LGLogger](https://github.com/chandanankush/LGLogger)** — An iOS logging package that puts filtered, persistent logs and export controls inside the app itself.
