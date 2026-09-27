@@ -12,8 +12,8 @@ I'm an Engineering Manager at Paytm Payments Bank, leading Web, Android, iOS, an
 - **[dev-tools](https://github.com/chandanankush/dev-tools)** — A browser workbench for developer utilities, notes, and a whiteboard, with a strict CSP and SSRF-safe URL expansion behind the scenes [Try it live](https://mopplications.com/).
 - **WhatsApp Gateway** *(private)* — A containerized messaging API with QR pairing, an operator dashboard, revocable keys, and an outbound history.
 - **[Statix](https://github.com/chandanankush/statix)** — Native agents and a central dashboard keep an eye on the CPU, memory, disks, and networks across my homelab.
-- **[LGLogger](https://github.com/chandanankush/LGLogger)** — An iOS logging package that puts filtered, persistent logs and export controls inside the app itself.
 - **[lan-devices](https://github.com/chandanankush/lan-devices)** — A SwiftUI dashboard for finding LAN machines, checking SSH reachability, and launching terminal or remote-control actions.
+- **[LGLogger](https://github.com/chandanankush/LGLogger)** — An iOS logging package that puts filtered, persistent logs and export controls inside the app itself.
 - **FTP Server Dashboard** *(private)* — A small LAN file-sharing service with one access mode across FTP and web, host-only administration, and idle shutdown.
 
 ## Things you can actually use
@@ -23,8 +23,8 @@ I'm an Engineering Manager at Paytm Payments Bank, leading Web, Android, iOS, an
 | **[dev-tools](https://github.com/chandanankush/dev-tools)** | JSON, cURL, regex, notes, and a canvas whiteboard in one self-hosted workbench. |
 | **[statix](https://github.com/chandanankush/statix)** | Monitor multiple macOS and Linux hosts from one dashboard. |
 | **[Mac SSH Manager](https://github.com/chandanankush/MacSSHManager)** | Secure your mac if that is exposed via ssh. |
-| **[LGLogger](https://github.com/chandanankush/LGLogger)** | Inspect and export iOS app logs without attaching a development cable. |
 | **[lan-devices](https://github.com/chandanankush/lan-devices)** | Discover LAN machines, watch SSH reachability, and open a terminal. |
+| **[LGLogger](https://github.com/chandanankush/LGLogger)** | Inspect and export iOS app logs without attaching a development cable. |
 
 ## Tech stack
 
