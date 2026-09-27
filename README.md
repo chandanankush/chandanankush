@@ -8,7 +8,7 @@ I'm an Engineering Manager at Paytm Payments Bank, leading Web, Android, iOS, an
 
 - **AIResume** *(private)* — A portfolio you can question, powered by local models and a custom RAG pipeline with repeatable retrieval evaluations. [Try it live](https://chandan.mopplications.com/).
 - **TxParse** *(private)* — Turns messy bank PDFs and transaction emails into a reconciled ledger; balance checks and PostgreSQL row-level security keep the data trustworthy and isolated. [See the live site](https://txparse.mopplications.com/).
-- **ServerPC SSH Control** *(private)* — Keeps SSH closed until fresh macOS authorization opens a timed firewall window; an independent process enforces expiry.
+- **[Mac SSH Manager](https://github.com/chandanankush/MacSSHManager)** — Keeps SSH closed until fresh macOS authorization opens a timed firewall window; an independent process enforces expiry.
 - **[dev-tools](https://github.com/chandanankush/dev-tools)** — A browser workbench for developer utilities, notes, and a whiteboard, with a strict CSP and SSRF-safe URL expansion behind the scenes [Try it live](https://mopplications.com/).
 - **WhatsApp Gateway** *(private)* — A containerized messaging API with QR pairing, an operator dashboard, revocable keys, and an outbound history.
 - **[Statix](https://github.com/chandanankush/statix)** — Native agents and a central dashboard keep an eye on the CPU, memory, disks, and networks across my homelab.
@@ -22,6 +22,7 @@ I'm an Engineering Manager at Paytm Payments Bank, leading Web, Android, iOS, an
 |---|---|
 | **[dev-tools](https://github.com/chandanankush/dev-tools)** | JSON, cURL, regex, notes, and a canvas whiteboard in one self-hosted workbench. |
 | **[statix](https://github.com/chandanankush/statix)** | Monitor multiple macOS and Linux hosts from one dashboard. |
+| **[Mac SSH Manager](https://github.com/chandanankush/MacSSHManager)** | Secure your mac if that is exposed via ssh. |
 | **[LGLogger](https://github.com/chandanankush/LGLogger)** | Inspect and export iOS app logs without attaching a development cable. |
 | **[lan-devices](https://github.com/chandanankush/lan-devices)** | Discover LAN machines, watch SSH reachability, and open a terminal. |
 
