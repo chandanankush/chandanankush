@@ -29,6 +29,8 @@ I'm an Engineering Manager at Paytm Payments Bank, leading Web, Android, iOS, an
 | **[Mac SSH Manager](https://github.com/chandanankush/MacSSHManager)** | Timed SSH access from the macOS menu bar |
 | **[lan-devices](https://github.com/chandanankush/lan-devices)** | Discover LAN machines, watch SSH reachability, and open a terminal. |
 | **[LGLogger](https://github.com/chandanankush/LGLogger)** | Inspect and export iOS app logs without attaching a development cable. |
+| **[GPS Photo](https://play.google.com/store/apps/details?id=com.mopplications.gpsphoto&hl=en_IN)** | Android camera app that stamps GPS data into each photo, live on Google Play. |
+| **[Ringvault](https://testflight.apple.com/join/qWh2SgfM)** | A local-first iPhone contact book with caller ID and call blocking, in public TestFlight beta. |
 
 ## Tech stack
 
