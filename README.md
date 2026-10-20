@@ -8,13 +8,19 @@ I'm an Engineering Manager at Paytm Payments Bank, leading Web, Android, iOS, an
 
 - **AIResume** *(private)* — A portfolio you can question, powered by local models and a custom RAG pipeline with repeatable retrieval evaluations. [Try it live](https://chandan.mopplications.com/).
 - **TxParse** *(private)* — Turns messy bank PDFs and transaction emails into a reconciled ledger; balance checks and PostgreSQL row-level security keep the data trustworthy and isolated. [See the live site](https://txparse.mopplications.com/).
+- **Ringvault** *(private)* — A local-first iPhone contact book with caller ID and call blocking through Apple's Call Directory; no account, servers, or analytics.
 - **[Mac SSH Manager](https://github.com/chandanankush/MacSSHManager)** — A macOS menu-bar app that opens SSH access for a timed window and closes it automatically. Supports LAN and Tailscale.
-- **[dev-tools](https://github.com/chandanankush/dev-tools)** — A browser workbench for developer utilities, notes, and a whiteboard, with a strict CSP and SSRF-safe URL expansion behind the scenes [Try it live](https://mopplications.com/).
+- **[dev-tools](https://github.com/chandanankush/dev-tools)** — A browser workbench for developer utilities, notes, and a whiteboard, with a strict CSP and SSRF-safe URL expansion behind the scenes. [Try it live](https://mopplications.com/).
 - **WhatsApp Gateway** *(private)* — A containerized messaging API with QR pairing, an operator dashboard, revocable keys, and an outbound history.
+- **Camera Monitor** *(private)* — A native macOS app for local camera detection, face recognition, and event review, with SwiftUI controls and on-device Python inference.
+- **Jarvis** *(private)* — A local-first voice assistant: a Raspberry Pi captures speech, and a Mac transcribes it, asks a local LLM, and speaks the reply, with no cloud AI fallback.
 - **[Statix](https://github.com/chandanankush/statix)** — Native agents and a central dashboard keep an eye on the CPU, memory, disks, and networks across my homelab.
 - **[lan-devices](https://github.com/chandanankush/lan-devices)** — A SwiftUI dashboard for finding LAN machines, checking SSH reachability, and launching terminal or remote-control actions.
+- **[TextToQR](https://github.com/chandanankush/TextToQR)** — A macOS app that turns ASCII text into QR codes, keeps reusable text in folders, and imports or exports the library as CSV.
 - **[LGLogger](https://github.com/chandanankush/LGLogger)** — An iOS logging package that puts filtered, persistent logs and export controls inside the app itself.
+- **[ActivityForecast](https://github.com/chandanankush/ActivityForecast)** — An iOS app that ranks the next seven days for skiing, surfing, or sightseeing, scoring each day from the weather behind it, including "feels like" temperature, storms, and fog.
 - **FTP Server Dashboard** *(private)* — A small LAN file-sharing service with one access mode across FTP and web, host-only administration, and idle shutdown.
+- **GPS Camera** *(private)* — A Kotlin Android camera app that burns a GPS stamp directly into each photo, built with Jetpack Compose and CameraX.
 
 ## Things you can actually use
 
@@ -24,6 +30,7 @@ I'm an Engineering Manager at Paytm Payments Bank, leading Web, Android, iOS, an
 | **[statix](https://github.com/chandanankush/statix)** | Monitor multiple macOS and Linux hosts from one dashboard. |
 | **[Mac SSH Manager](https://github.com/chandanankush/MacSSHManager)** | Timed SSH access from the macOS menu bar |
 | **[lan-devices](https://github.com/chandanankush/lan-devices)** | Discover LAN machines, watch SSH reachability, and open a terminal. |
+| **[TextToQR](https://github.com/chandanankush/TextToQR)** | Turn ASCII text into QR codes on macOS and keep reusable text in folders. |
 | **[LGLogger](https://github.com/chandanankush/LGLogger)** | Inspect and export iOS app logs without attaching a development cable. |
 
 ## Tech stack
